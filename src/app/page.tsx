@@ -17,7 +17,7 @@ export default function Home() {
                       <p>Because life isn’t all code, you’ll also find stories from my travel adventures.</p>
                       <p>Therefore, this site is a blending of professional growth with my wanderlusts. </p>
                   </Box>
-                  <Box>
+                  <Box sx={{width:'2rem', height:'2rem'}}>
                         <div>Image</div>
                   </Box>
               </Box>
