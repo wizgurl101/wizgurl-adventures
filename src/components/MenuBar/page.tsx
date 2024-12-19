@@ -70,7 +70,7 @@ export default function MenuBar(props: Props) {
                         <Typography
                             variant="h6"
                             component="div"
-                            sx={{ flexGrow: 1, display: { xs: 'none', sm: 'block' }, color: '#4A4947' }}
+                            sx={{ flexGrow: 1, display: { xs: 'none', sm: 'block' }}}
                         >
                             {websiteName}
                         </Typography>
