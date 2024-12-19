@@ -56,27 +56,27 @@ export default function MenuBar(props: Props) {
         <>
             <Box sx={{ display: 'flex' }}>
                 <CssBaseline />
-                <AppBar component="nav" sx={{backgroundColor: '#F7F7F7', boxShadow: 'none'}}>
+                <AppBar component="nav" sx={{backgroundColor: '#FAF7F0', boxShadow: 'none'}}>
                     <Toolbar>
                         <IconButton
                             color="inherit"
                             aria-label="open drawer"
                             edge="start"
                             onClick={handleDrawerToggle}
-                            sx={{ mr: 2, display: { sm: 'none' }, color: '#3F3F44' }}
+                            sx={{ mr: 2, display: { sm: 'none' }, color: '#4A4947' }}
                         >
                             <MenuIcon />
                         </IconButton>
                         <Typography
                             variant="h6"
                             component="div"
-                            sx={{ flexGrow: 1, display: { xs: 'none', sm: 'block' }, color: '#3F3F44' }}
+                            sx={{ flexGrow: 1, display: { xs: 'none', sm: 'block' }, color: '#4A4947' }}
                         >
                             {websiteName}
                         </Typography>
                         <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
                             {navItems.map((item) => (
-                                <Button key={item} sx={{ color: '#3F3F44' }}>
+                                <Button key={item} sx={{ color: '#4A4947' }}>
                                     {item}
                                 </Button>
                             ))}
